@@ -9,7 +9,7 @@ metadata:
   name: whoami-deployment
   namespace: whoami-ns
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: whoami
